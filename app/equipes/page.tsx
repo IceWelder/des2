@@ -59,7 +59,7 @@ export default function Page () {
     return(
         <section>
              <div className="container mx-auto py-8">
-                <h1 className="text-3xl font-semibold mb-4">Corridas</h1>
+                <h1 className="text-3xl font-semibold mb-4">Equipes</h1>
                 <RaceCardGrid raceCards={raceCardsData} />
              </div>
         </section>

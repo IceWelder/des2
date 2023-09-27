@@ -21,7 +21,7 @@ const RaceCardGrid: React.FC<RaceCardGridProps> = ({ raceCards }) => {
         >
           <img src={race.imageUrl} alt={race.title} className="w-full h-auto rounded-lg" />
           <h2 className="text-red-600 text-xl font-semibold mt-2">{race.title}</h2>
-          <p className="text-white mt-2">{race.description}</p>
+          <p className="text-white mt-2">{race.description}</p> 
         </div>
       ))}
     </div>
