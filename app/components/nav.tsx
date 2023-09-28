@@ -11,7 +11,7 @@ export default function Nav () {
             </li>
             <li>
               <Link href="/page2" className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
-               Piasta
+               Pista
               </Link>
             </li>
             <li>

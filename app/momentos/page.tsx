@@ -1,4 +1,3 @@
-// pages/index.tsx
 import React from 'react';
 import VideoBox from '../components/VideoBox';
 
@@ -14,12 +13,9 @@ const videos = [
   '/vd9.mp4',
   '/vd10.mp4',
   '/vd11.mp4',
-  
-  
-  
 ];
 
-const Home: React.FC = () => {
+const Page = () => {
   return (
     <div className="container mx-auto py-8 h-screen">
       <h1 className="text-3xl font-semibold mb-4">Momentos da F1</h1>
@@ -32,4 +28,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Page;
