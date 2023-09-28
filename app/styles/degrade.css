@@ -1,0 +1,10 @@
+/* styles/degrade.css */
+.bg-degrade {
+    background: linear-gradient(
+      to bottom,
+      #052e16, /* Verde escuro */
+      #ffcc00, /* Amarelo canário */
+      #0a2351  /* Azul escuro */
+    );
+  }
+  

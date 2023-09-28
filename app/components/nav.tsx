@@ -20,7 +20,7 @@ export default function Nav () {
               </Link>
             </li>
             <li>
-              <Link href="/momentos" className="bg-gradient-to-r from-yellow-400 to-green-500 hover:from-green-500 hover:to-yellow-400 text-blue-900 font-semibold py-2 px-4 rounded">
+              <Link href="/senna" className="bg-gradient-to-r from-yellow-400 to-green-500 hover:from-green-500 hover:to-yellow-400 text-blue-900 font-semibold py-2 px-4 rounded">
                Senna
               </Link>
             </li>
