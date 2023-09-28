@@ -1,6 +1,7 @@
 // pages/index.tsx
 import React from 'react';
 import RaceCardGrid from '../components/RaceCard';
+import Footer from '../components/footer';
 
 const raceCardsData = [
   {
@@ -62,6 +63,7 @@ export default function Page () {
                 <h1 className="text-3xl font-semibold mb-4">Equipes</h1>
                 <RaceCardGrid raceCards={raceCardsData} />
              </div>
+             <Footer/>
         </section>
     )
 }

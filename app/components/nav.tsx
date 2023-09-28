@@ -15,8 +15,13 @@ export default function Nav () {
               </Link>
             </li>
             <li>
-              <Link href="/page3" className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
-               Calendario
+              <Link href="/momentos" className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
+               Momentos
+              </Link>
+            </li>
+            <li>
+              <Link href="/momentos" className="bg-gradient-to-r from-yellow-400 to-green-500 hover:from-green-500 hover:to-yellow-400 text-blue-900 font-semibold py-2 px-4 rounded">
+               Senna
               </Link>
             </li>
           </ul>
