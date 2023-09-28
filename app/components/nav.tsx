@@ -9,11 +9,7 @@ export default function Nav () {
                Equipes
               </Link>
             </li>
-            <li>
-              <Link href="/page2" className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
-               Pista
-              </Link>
-            </li>
+           
             <li>
               <Link href="/momentos" className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
                Momentos
