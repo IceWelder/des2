@@ -20,6 +20,11 @@ export default function Nav () {
                Senna
               </Link>
             </li>
+            <li>
+              <Link href="/vettel" className="bg-gradient-to-r from-black via-red-700 to-yellow-500 hover:from-yellow-500 hover:to-red-700 text-white font-semibold py-2 px-4 rounded">
+               Vettel
+              </Link>
+            </li>
           </ul>
         </section>
     )
